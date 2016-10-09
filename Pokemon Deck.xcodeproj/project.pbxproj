@@ -107,8 +107,8 @@
 		BF680B311DA9E27500E57DB4 /* Pokemon Deck */ = {
 			isa = PBXGroup;
 			children = (
-				BF680B6A1DA9FF8900E57DB4 /* View */,
 				BF680B621DA9EE0700E57DB4 /* Model */,
+				BF680B6A1DA9FF8900E57DB4 /* View */,
 				BF680B651DA9F48D00E57DB4 /* Resources */,
 				BF680B321DA9E27500E57DB4 /* AppDelegate.swift */,
 				BF680B341DA9E27500E57DB4 /* ViewController.swift */,
