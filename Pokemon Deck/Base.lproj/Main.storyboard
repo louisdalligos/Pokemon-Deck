@@ -130,11 +130,44 @@
                     <connections>
                         <outlet property="collection" destination="a4w-tf-5wc" id="iBz-KW-VsR"/>
                         <outlet property="searchBar" destination="0QQ-Az-B4g" id="kpe-6s-GMU"/>
+                        <segue destination="eaM-lS-0I1" kind="show" identifier="PokemonDetailVC" id="Cuk-he-5J1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="63.75" y="76.056338028169009"/>
+            <point key="canvasLocation" x="60" y="75"/>
+        </scene>
+        <!--Pokemon DetailVC-->
+        <scene sceneID="OJ1-Xl-LCG">
+            <objects>
+                <viewController id="eaM-lS-0I1" customClass="PokemonDetailVC" customModule="Pokemon_Deck" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="adM-Nn-MED"/>
+                        <viewControllerLayoutGuide type="bottom" id="yIK-Gj-N6K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6uJ-wc-VnP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NoL-Db-uYI">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NoL-Db-uYI" firstAttribute="centerY" secondItem="6uJ-wc-VnP" secondAttribute="centerY" id="1j6-zt-dql"/>
+                            <constraint firstItem="NoL-Db-uYI" firstAttribute="centerX" secondItem="6uJ-wc-VnP" secondAttribute="centerX" id="EJq-cs-EYT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="NoL-Db-uYI" id="z5h-ap-DVo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWU-FG-SFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="76"/>
         </scene>
     </scenes>
     <resources>

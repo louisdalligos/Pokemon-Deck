@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3017871DAAF0E800F33AE7 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3017861DAAF0E800F33AE7 /* PokemonDetailVC.swift */; };
 		BF680B331DA9E27500E57DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF680B321DA9E27500E57DB4 /* AppDelegate.swift */; };
 		BF680B351DA9E27500E57DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF680B341DA9E27500E57DB4 /* ViewController.swift */; };
 		BF680B381DA9E27500E57DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF680B361DA9E27500E57DB4 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF3017861DAAF0E800F33AE7 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		BF680B2F1DA9E27500E57DB4 /* Pokemon Deck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Deck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF680B321DA9E27500E57DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF680B341DA9E27500E57DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				BF680B341DA9E27500E57DB4 /* ViewController.swift */,
+				BF3017861DAAF0E800F33AE7 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				BF680B6C1DA9FFCF00E57DB4 /* PokeCell.swift in Sources */,
 				BF680B351DA9E27500E57DB4 /* ViewController.swift in Sources */,
 				BF680B331DA9E27500E57DB4 /* AppDelegate.swift in Sources */,
+				BF3017871DAAF0E800F33AE7 /* PokemonDetailVC.swift in Sources */,
 				BF680B641DA9EE2A00E57DB4 /* Pokemon.swift in Sources */,
 				BF680B6E1DAA1E0800E57DB4 /* csv.swift in Sources */,
 			);
@@ -587,6 +591,7 @@
 				BF680B591DA9E27600E57DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF680B5A1DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon DeckTests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +600,7 @@
 				BF680B5C1DA9E27600E57DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF680B5D1DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon DeckUITests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +609,7 @@
 				BF680B5F1DA9E27600E57DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
