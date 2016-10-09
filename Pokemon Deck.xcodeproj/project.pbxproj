@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF680B331DA9E27500E57DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF680B321DA9E27500E57DB4 /* AppDelegate.swift */; };
+		BF680B351DA9E27500E57DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF680B341DA9E27500E57DB4 /* ViewController.swift */; };
+		BF680B381DA9E27500E57DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF680B361DA9E27500E57DB4 /* Main.storyboard */; };
+		BF680B3A1DA9E27500E57DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF680B391DA9E27500E57DB4 /* Assets.xcassets */; };
+		BF680B3D1DA9E27500E57DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF680B3B1DA9E27500E57DB4 /* LaunchScreen.storyboard */; };
+		BF680B481DA9E27600E57DB4 /* Pokemon_DeckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF680B471DA9E27600E57DB4 /* Pokemon_DeckTests.swift */; };
+		BF680B531DA9E27600E57DB4 /* Pokemon_DeckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF680B521DA9E27600E57DB4 /* Pokemon_DeckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF680B441DA9E27600E57DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF680B271DA9E27500E57DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF680B2E1DA9E27500E57DB4;
+			remoteInfo = "Pokemon Deck";
+		};
+		BF680B4F1DA9E27600E57DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF680B271DA9E27500E57DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF680B2E1DA9E27500E57DB4;
+			remoteInfo = "Pokemon Deck";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF680B2F1DA9E27500E57DB4 /* Pokemon Deck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Deck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF680B321DA9E27500E57DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF680B341DA9E27500E57DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF680B371DA9E27500E57DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF680B391DA9E27500E57DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF680B3C1DA9E27500E57DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF680B3E1DA9E27500E57DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF680B431DA9E27600E57DB4 /* Pokemon DeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon DeckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF680B471DA9E27600E57DB4 /* Pokemon_DeckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_DeckTests.swift; sourceTree = "<group>"; };
+		BF680B491DA9E27600E57DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF680B4E1DA9E27600E57DB4 /* Pokemon DeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon DeckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF680B521DA9E27600E57DB4 /* Pokemon_DeckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_DeckUITests.swift; sourceTree = "<group>"; };
+		BF680B541DA9E27600E57DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF680B2C1DA9E27500E57DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF680B401DA9E27600E57DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF680B4B1DA9E27600E57DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF680B261DA9E27500E57DB4 = {
+			isa = PBXGroup;
+			children = (
+				BF680B311DA9E27500E57DB4 /* Pokemon Deck */,
+				BF680B461DA9E27600E57DB4 /* Pokemon DeckTests */,
+				BF680B511DA9E27600E57DB4 /* Pokemon DeckUITests */,
+				BF680B301DA9E27500E57DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF680B301DA9E27500E57DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF680B2F1DA9E27500E57DB4 /* Pokemon Deck.app */,
+				BF680B431DA9E27600E57DB4 /* Pokemon DeckTests.xctest */,
+				BF680B4E1DA9E27600E57DB4 /* Pokemon DeckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF680B311DA9E27500E57DB4 /* Pokemon Deck */ = {
+			isa = PBXGroup;
+			children = (
+				BF680B321DA9E27500E57DB4 /* AppDelegate.swift */,
+				BF680B341DA9E27500E57DB4 /* ViewController.swift */,
+				BF680B361DA9E27500E57DB4 /* Main.storyboard */,
+				BF680B391DA9E27500E57DB4 /* Assets.xcassets */,
+				BF680B3B1DA9E27500E57DB4 /* LaunchScreen.storyboard */,
+				BF680B3E1DA9E27500E57DB4 /* Info.plist */,
+			);
+			path = "Pokemon Deck";
+			sourceTree = "<group>";
+		};
+		BF680B461DA9E27600E57DB4 /* Pokemon DeckTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF680B471DA9E27600E57DB4 /* Pokemon_DeckTests.swift */,
+				BF680B491DA9E27600E57DB4 /* Info.plist */,
+			);
+			path = "Pokemon DeckTests";
+			sourceTree = "<group>";
+		};
+		BF680B511DA9E27600E57DB4 /* Pokemon DeckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF680B521DA9E27600E57DB4 /* Pokemon_DeckUITests.swift */,
+				BF680B541DA9E27600E57DB4 /* Info.plist */,
+			);
+			path = "Pokemon DeckUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF680B2E1DA9E27500E57DB4 /* Pokemon Deck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF680B571DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon Deck" */;
+			buildPhases = (
+				BF680B2B1DA9E27500E57DB4 /* Sources */,
+				BF680B2C1DA9E27500E57DB4 /* Frameworks */,
+				BF680B2D1DA9E27500E57DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon Deck";
+			productName = "Pokemon Deck";
+			productReference = BF680B2F1DA9E27500E57DB4 /* Pokemon Deck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF680B421DA9E27600E57DB4 /* Pokemon DeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF680B5A1DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon DeckTests" */;
+			buildPhases = (
+				BF680B3F1DA9E27600E57DB4 /* Sources */,
+				BF680B401DA9E27600E57DB4 /* Frameworks */,
+				BF680B411DA9E27600E57DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF680B451DA9E27600E57DB4 /* PBXTargetDependency */,
+			);
+			name = "Pokemon DeckTests";
+			productName = "Pokemon DeckTests";
+			productReference = BF680B431DA9E27600E57DB4 /* Pokemon DeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF680B4D1DA9E27600E57DB4 /* Pokemon DeckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF680B5D1DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon DeckUITests" */;
+			buildPhases = (
+				BF680B4A1DA9E27600E57DB4 /* Sources */,
+				BF680B4B1DA9E27600E57DB4 /* Frameworks */,
+				BF680B4C1DA9E27600E57DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF680B501DA9E27600E57DB4 /* PBXTargetDependency */,
+			);
+			name = "Pokemon DeckUITests";
+			productName = "Pokemon DeckUITests";
+			productReference = BF680B4E1DA9E27600E57DB4 /* Pokemon DeckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF680B271DA9E27500E57DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Louis;
+				TargetAttributes = {
+					BF680B2E1DA9E27500E57DB4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4WV9HZC5SY;
+						ProvisioningStyle = Automatic;
+					};
+					BF680B421DA9E27600E57DB4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4WV9HZC5SY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF680B2E1DA9E27500E57DB4;
+					};
+					BF680B4D1DA9E27600E57DB4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4WV9HZC5SY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF680B2E1DA9E27500E57DB4;
+					};
+				};
+			};
+			buildConfigurationList = BF680B2A1DA9E27500E57DB4 /* Build configuration list for PBXProject "Pokemon Deck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF680B261DA9E27500E57DB4;
+			productRefGroup = BF680B301DA9E27500E57DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF680B2E1DA9E27500E57DB4 /* Pokemon Deck */,
+				BF680B421DA9E27600E57DB4 /* Pokemon DeckTests */,
+				BF680B4D1DA9E27600E57DB4 /* Pokemon DeckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF680B2D1DA9E27500E57DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF680B3D1DA9E27500E57DB4 /* LaunchScreen.storyboard in Resources */,
+				BF680B3A1DA9E27500E57DB4 /* Assets.xcassets in Resources */,
+				BF680B381DA9E27500E57DB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF680B411DA9E27600E57DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF680B4C1DA9E27600E57DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF680B2B1DA9E27500E57DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF680B351DA9E27500E57DB4 /* ViewController.swift in Sources */,
+				BF680B331DA9E27500E57DB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF680B3F1DA9E27600E57DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF680B481DA9E27600E57DB4 /* Pokemon_DeckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF680B4A1DA9E27600E57DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF680B531DA9E27600E57DB4 /* Pokemon_DeckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF680B451DA9E27600E57DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF680B2E1DA9E27500E57DB4 /* Pokemon Deck */;
+			targetProxy = BF680B441DA9E27600E57DB4 /* PBXContainerItemProxy */;
+		};
+		BF680B501DA9E27600E57DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF680B2E1DA9E27500E57DB4 /* Pokemon Deck */;
+			targetProxy = BF680B4F1DA9E27600E57DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF680B361DA9E27500E57DB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF680B371DA9E27500E57DB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF680B3B1DA9E27500E57DB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF680B3C1DA9E27500E57DB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF680B551DA9E27600E57DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF680B561DA9E27600E57DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF680B581DA9E27600E57DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WV9HZC5SY;
+				INFOPLIST_FILE = "Pokemon Deck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weproco.Pokemon-Deck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF680B591DA9E27600E57DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WV9HZC5SY;
+				INFOPLIST_FILE = "Pokemon Deck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weproco.Pokemon-Deck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BF680B5B1DA9E27600E57DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WV9HZC5SY;
+				INFOPLIST_FILE = "Pokemon DeckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weproco.Pokemon-DeckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon Deck.app/Pokemon Deck";
+			};
+			name = Debug;
+		};
+		BF680B5C1DA9E27600E57DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WV9HZC5SY;
+				INFOPLIST_FILE = "Pokemon DeckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weproco.Pokemon-DeckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon Deck.app/Pokemon Deck";
+			};
+			name = Release;
+		};
+		BF680B5E1DA9E27600E57DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4WV9HZC5SY;
+				INFOPLIST_FILE = "Pokemon DeckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weproco.Pokemon-DeckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pokemon Deck";
+			};
+			name = Debug;
+		};
+		BF680B5F1DA9E27600E57DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4WV9HZC5SY;
+				INFOPLIST_FILE = "Pokemon DeckUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weproco.Pokemon-DeckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pokemon Deck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF680B2A1DA9E27500E57DB4 /* Build configuration list for PBXProject "Pokemon Deck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF680B551DA9E27600E57DB4 /* Debug */,
+				BF680B561DA9E27600E57DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF680B571DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon Deck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF680B581DA9E27600E57DB4 /* Debug */,
+				BF680B591DA9E27600E57DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF680B5A1DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon DeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF680B5B1DA9E27600E57DB4 /* Debug */,
+				BF680B5C1DA9E27600E57DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF680B5D1DA9E27600E57DB4 /* Build configuration list for PBXNativeTarget "Pokemon DeckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF680B5E1DA9E27600E57DB4 /* Debug */,
+				BF680B5F1DA9E27600E57DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF680B271DA9E27500E57DB4 /* Project object */;
+}
